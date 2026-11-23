@@ -158,6 +158,72 @@
       "exit": 7269.75,
       "pnl": -10.0,
       "lesson": null
+    },
+    {
+      "id": "2026-11-23T16:00:00-05:00",
+      "entry_time": "2026-11-23 16:00:00-05:00",
+      "dir": -1,
+      "entry": 7256.5,
+      "stop": 7266.5,
+      "target": 7244.5,
+      "features": {
+        "direction": "short",
+        "session": "New York cash session",
+        "weekday": "Mon",
+        "gap_size": "large",
+        "volatility": "normal",
+        "entry_stretch": "extended",
+        "vs_24h_move": "against"
+      },
+      "taken": true,
+      "assessment": {
+        "win_prob": 0.705,
+        "breakeven": 0.455,
+        "take": true,
+        "reasons": [
+          "entry_stretch = extended: won 9 of 12 weighted trades (71%)",
+          "vs_24h_move = against: won 9 of 15 weighted trades (60%)",
+          "gap_size = large: won 9 of 15 weighted trades (60%)"
+        ]
+      },
+      "issue": 6,
+      "exit_time": "2026-11-23 21:01:00+00:00",
+      "exit": 7266.5,
+      "pnl": -10.0,
+      "lesson": null
+    },
+    {
+      "id": "2026-11-23T16:05:00-05:00",
+      "entry_time": "2026-11-23 16:05:00-05:00",
+      "dir": -1,
+      "entry": 7260.25,
+      "stop": 7270.25,
+      "target": 7248.25,
+      "features": {
+        "direction": "short",
+        "session": "Asia / overnight",
+        "weekday": "Mon",
+        "gap_size": "large",
+        "volatility": "normal",
+        "entry_stretch": "extended",
+        "vs_24h_move": "against"
+      },
+      "taken": true,
+      "assessment": {
+        "win_prob": 0.697,
+        "breakeven": 0.455,
+        "take": true,
+        "reasons": [
+          "entry_stretch = extended: won 9 of 12 weighted trades (71%)",
+          "vs_24h_move = against: won 9 of 15 weighted trades (60%)",
+          "gap_size = large: won 9 of 15 weighted trades (60%)"
+        ]
+      },
+      "issue": 7,
+      "exit_time": "2026-11-23 21:02:00+00:00",
+      "exit": 7271.0,
+      "pnl": -10.0,
+      "lesson": null
     }
   ]
 }
