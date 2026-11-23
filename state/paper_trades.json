@@ -61,6 +61,38 @@
       "exit_time": "2026-11-23 16:42:00+00:00",
       "exit": 7230.25,
       "pnl": 12.0
+    },
+    {
+      "id": "2026-11-23T12:50:00-05:00",
+      "entry_time": "2026-11-23 12:50:00-05:00",
+      "dir": -1,
+      "entry": 7245.75,
+      "stop": 7255.75,
+      "target": 7233.75,
+      "features": {
+        "direction": "short",
+        "session": "New York cash session",
+        "weekday": "Mon",
+        "gap_size": "large",
+        "volatility": "high",
+        "entry_stretch": "extended",
+        "vs_24h_move": "against"
+      },
+      "taken": true,
+      "assessment": {
+        "win_prob": 0.714,
+        "breakeven": 0.455,
+        "take": true,
+        "reasons": [
+          "vs_24h_move = against: won 3 of 6 weighted trades (50%)",
+          "volatility = high: won 3 of 6 weighted trades (50%)",
+          "gap_size = large: won 3 of 6 weighted trades (50%)"
+        ]
+      },
+      "issue": 3,
+      "exit_time": "2026-11-23 17:48:00+00:00",
+      "exit": 7233.5,
+      "pnl": 12.0
     }
   ]
 }
