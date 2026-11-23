@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-23",
+  "edge": true,
+  "target": 10,
+  "stop": 8,
+  "swing_5m": 3,
+  "use_mistake_filter": false
+}

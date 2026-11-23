@@ -1,0 +1,19 @@
+{
+  "weights": {
+    "trend_50": 1.0,
+    "trend_200": 0.8,
+    "momentum_20d": 0.5,
+    "rsi": 0.0,
+    "last_day": 0.0,
+    "structure_4h": 1.0,
+    "fvg_position": 0.5,
+    "vix_change_5d": 0.5,
+    "breadth": 0.5
+  },
+  "resolved": 0,
+  "correct": 0,
+  "baseline_correct": 0,
+  "recent": [],
+  "signal_stats": {},
+  "mistakes": []
+}
