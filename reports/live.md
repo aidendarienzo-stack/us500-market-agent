@@ -1,21 +1,22 @@
-# US500 live — Mon Nov 23 09:26:32 ET
+# US500 live — Mon Nov 23 09:41:32 ET
 
-**Price 7241.2**
- · London / pre-market · feed: Yahoo Finance (delayed fallback) · last tick Mon Nov 23 09:17:00 ET
+**Price 7258.8**
+ · New York cash session · feed: Yahoo Finance (delayed fallback) · last tick Mon Nov 23 09:32:00 ET
 
 4H structure: **bearish** · settings: target 12, stop 10 (your defaults (no proven edge yet)) · mistake filter OFF
 
+- **SHORT setup armed** since Mon Nov 23 09:30:00 ET after tapping FVG 7254.0–7390.5
 - Last 5m swing high 7117.0 · swing low 7084.8
 
 ## Unfilled 4H fair value gaps
 
 | Where | Type | Zone | Distance |
 |---|---|---|---|
-| above | bear | 7254.0 – 7390.5 | 12.8 pts |
-| above | bear | 7457.8 – 7504.8 | 216.5 pts |
-| above | bear | 7514.2 – 7546.5 | 273.0 pts |
-| above | bear | 7602.8 – 7704.8 | 361.5 pts |
-| below | bull | 7052.5 – 7067.2 | 174.0 pts |
+| inside | bear | 7254.0 – 7390.5 | 0.0 pts |
+| above | bear | 7457.8 – 7504.8 | 199.0 pts |
+| above | bear | 7514.2 – 7546.5 | 255.5 pts |
+| above | bear | 7602.8 – 7704.8 | 344.0 pts |
+| below | bull | 7052.5 – 7067.2 | 191.5 pts |
 
 ## Signals in the last 24 hours
 
@@ -39,6 +40,7 @@
 
 ## Recent events
 
+- Mon Nov 23 09:28:06 ET — Price tapped bearish 4H FVG 7254.0–7390.5
 - Mon Nov 23 09:10:06 ET — Price tapped bearish 4H FVG 7199.2–7210.5
 - Mon Nov 23 05:13:20 ET — No new price for 120s (quiet market, holiday, or feed problem)
 
