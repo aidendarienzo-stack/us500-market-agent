@@ -1,0 +1,44 @@
+# ---------------------------------------------------------------
+# US500 market agent - settings
+# Edit this file on GitHub to change what the agent does.
+# ---------------------------------------------------------------
+
+symbol:
+  ctrader_name: US500        # Pepperstone cTrader symbol (same feed as PEPPERSTONE:US500 on TradingView)
+  ctrader_env: demo          # "demo" or "live" - which Pepperstone account type your token is for
+  price_side: bid            # TradingView's Pepperstone chart plots bid prices
+  yahoo_fallback: ES=F       # used only until the cTrader secrets are added (delayed data)
+
+tradingview_chart: https://www.tradingview.com/chart/M4XmmecI/?symbol=PEPPERSTONE%3AUS500
+
+# Your strategy: trend structure + change of delivery near 4H fair value gaps
+strategy:
+  fvg_min_points: 2.0        # ignore 4H gaps smaller than this
+  swing_4h: 2                # candles each side needed to confirm a 4H swing high/low
+  swing_5m: 2                # candles each side needed to confirm a 5m swing high/low
+  arm_bars: 24               # after price taps a 4H FVG, how many 5m bars the setup stays live (24 = 2 hours)
+  max_hold_bars: 96          # close a paper trade after this many 5m bars (96 = 8 hours)
+  default_target: 12         # points - used until the nightly backtest finds better settings
+  default_stop: 10           # points
+
+# Nightly backtest - tries every combination and checks it on unseen data
+backtest:
+  days: 120
+  targets: [10, 12, 15]
+  stops: [6, 8, 10]
+  swing_5m: [2, 3]
+  in_sample_frac: 0.7        # tune on the first 70% of the data, test on the last 30%
+  min_trades: 8
+
+learning:
+  rate: 0.05                 # how fast the daily-bias model adjusts its signal weights
+
+context:
+  vix: ^VIX
+  sectors: [XLK, XLF, XLE, XLV, XLY, XLP, XLI, XLU, XLB, XLRE, XLC]
+
+live:
+  report_every_minutes: 15   # how often the live report is saved to the repo
+  alert_on_signals: true     # open a GitHub issue when a setup triggers
+  alert_on_taps: false       # also open an issue when price taps a 4H FVG (noisier)
+  stale_after_seconds: 120   # warn if no price update for this long while the market is open

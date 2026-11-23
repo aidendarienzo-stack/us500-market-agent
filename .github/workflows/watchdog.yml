@@ -1,0 +1,42 @@
+name: Watchdog
+
+# Every 10 minutes: if the futures market is open (or opens within the hour) and the agent
+# is not running, start it.
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  ensure-running:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Is the market open?
+        id: hours
+        run: |
+          pip install --quiet pandas pyyaml
+          if python -m agent check; then echo "run=yes" >> "$GITHUB_OUTPUT"; else echo "run=no" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Start the agent if it is not running
+        if: steps.hours.outputs.run == 'yes'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          active=$(gh run list --workflow agent.yml --limit 20 --json status --jq '[.[] | select(.status != "completed")] | length')
+          if [ "$active" = "0" ]; then
+            gh workflow run agent.yml --ref "$GITHUB_REF_NAME"
+            echo "Agent was not running - started it."
+          else
+            echo "Agent already running."
+          fi
