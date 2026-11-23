@@ -224,6 +224,39 @@
       "exit": 7271.0,
       "pnl": -10.0,
       "lesson": null
+    },
+    {
+      "id": "2026-11-23T16:10:00-05:00",
+      "entry_time": "2026-11-23 16:10:00-05:00",
+      "dir": -1,
+      "entry": 7259.0,
+      "stop": 7269.0,
+      "target": 7247.0,
+      "features": {
+        "direction": "short",
+        "session": "Asia / overnight",
+        "weekday": "Mon",
+        "gap_size": "large",
+        "volatility": "normal",
+        "entry_stretch": "extended",
+        "vs_24h_move": "against"
+      },
+      "taken": true,
+      "assessment": {
+        "win_prob": 0.171,
+        "breakeven": 0.455,
+        "take": false,
+        "reasons": [
+          "volatility = normal: won 3 of 12 weighted trades (30%)",
+          "direction = short: won 9 of 21 weighted trades (43%)",
+          "weekday = Mon: won 9 of 21 weighted trades (43%)"
+        ]
+      },
+      "issue": 8,
+      "exit_time": "2026-11-23 21:09:00+00:00",
+      "exit": 7270.0,
+      "pnl": -10.0,
+      "lesson": null
     }
   ]
 }
