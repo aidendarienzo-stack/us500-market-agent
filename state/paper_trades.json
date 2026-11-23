@@ -31,6 +31,36 @@
       "exit": 7271.25,
       "pnl": -10.0,
       "lesson": null
+    },
+    {
+      "id": "2026-11-23T11:45:00-05:00",
+      "entry_time": "2026-11-23 11:45:00-05:00",
+      "dir": -1,
+      "entry": 7246.0,
+      "stop": 7256.0,
+      "target": 7234.0,
+      "features": {
+        "direction": "short",
+        "session": "New York cash session",
+        "weekday": "Mon",
+        "gap_size": "large",
+        "volatility": "high",
+        "entry_stretch": "extended",
+        "vs_24h_move": "against"
+      },
+      "taken": true,
+      "assessment": {
+        "win_prob": null,
+        "breakeven": 0.45454545454545453,
+        "take": true,
+        "reasons": [
+          "not enough history yet - taking every signal"
+        ]
+      },
+      "issue": 2,
+      "exit_time": "2026-11-23 16:42:00+00:00",
+      "exit": 7230.25,
+      "pnl": 12.0
     }
   ]
 }

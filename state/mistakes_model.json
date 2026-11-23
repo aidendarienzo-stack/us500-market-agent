@@ -2,35 +2,39 @@
   "backtest": {},
   "live": {
     "__all__": {
-      "w": 0.0,
-      "n": 1.0
+      "w": 1.0,
+      "n": 2.0
     },
     "direction=short": {
-      "w": 0.0,
-      "n": 1.0
+      "w": 1.0,
+      "n": 2.0
     },
     "session=New York cash session": {
-      "w": 0.0,
-      "n": 1.0
+      "w": 1.0,
+      "n": 2.0
     },
     "weekday=Mon": {
-      "w": 0.0,
-      "n": 1.0
+      "w": 1.0,
+      "n": 2.0
     },
     "gap_size=large": {
-      "w": 0.0,
-      "n": 1.0
+      "w": 1.0,
+      "n": 2.0
     },
     "volatility=high": {
-      "w": 0.0,
-      "n": 1.0
+      "w": 1.0,
+      "n": 2.0
     },
     "entry_stretch=near level": {
       "w": 0.0,
       "n": 1.0
     },
     "vs_24h_move=against": {
-      "w": 0.0,
+      "w": 1.0,
+      "n": 2.0
+    },
+    "entry_stretch=extended": {
+      "w": 1.0,
       "n": 1.0
     }
   },
