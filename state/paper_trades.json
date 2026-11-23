@@ -1,4 +1,36 @@
 {
   "open": [],
-  "closed": []
+  "closed": [
+    {
+      "id": "2026-11-23T11:10:00-05:00",
+      "entry_time": "2026-11-23 11:10:00-05:00",
+      "dir": -1,
+      "entry": 7260.25,
+      "stop": 7270.25,
+      "target": 7248.25,
+      "features": {
+        "direction": "short",
+        "session": "New York cash session",
+        "weekday": "Mon",
+        "gap_size": "large",
+        "volatility": "high",
+        "entry_stretch": "near level",
+        "vs_24h_move": "against"
+      },
+      "taken": true,
+      "assessment": {
+        "win_prob": null,
+        "breakeven": 0.45454545454545453,
+        "take": true,
+        "reasons": [
+          "not enough history yet - taking every signal"
+        ]
+      },
+      "issue": 1,
+      "exit_time": "2026-11-23 16:07:00+00:00",
+      "exit": 7271.25,
+      "pnl": -10.0,
+      "lesson": null
+    }
+  ]
 }

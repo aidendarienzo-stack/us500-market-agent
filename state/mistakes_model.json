@@ -1,5 +1,63 @@
 {
   "backtest": {},
-  "live": {},
-  "post_mortems": []
+  "live": {
+    "__all__": {
+      "w": 0.0,
+      "n": 1.0
+    },
+    "direction=short": {
+      "w": 0.0,
+      "n": 1.0
+    },
+    "session=New York cash session": {
+      "w": 0.0,
+      "n": 1.0
+    },
+    "weekday=Mon": {
+      "w": 0.0,
+      "n": 1.0
+    },
+    "gap_size=large": {
+      "w": 0.0,
+      "n": 1.0
+    },
+    "volatility=high": {
+      "w": 0.0,
+      "n": 1.0
+    },
+    "entry_stretch=near level": {
+      "w": 0.0,
+      "n": 1.0
+    },
+    "vs_24h_move=against": {
+      "w": 0.0,
+      "n": 1.0
+    }
+  },
+  "post_mortems": [
+    {
+      "entry_time": "2026-11-23 11:10:00-05:00",
+      "direction": "short",
+      "entry": 7260.25,
+      "pnl": -10.0,
+      "conditions": {
+        "direction": "short",
+        "session": "New York cash session",
+        "weekday": "Mon",
+        "gap_size": "large",
+        "volatility": "high",
+        "entry_stretch": "near level",
+        "vs_24h_move": "against"
+      },
+      "agent_estimate": {
+        "win_prob": null,
+        "breakeven": 0.45454545454545453,
+        "take": true,
+        "reasons": [
+          "not enough history yet - taking every signal"
+        ]
+      },
+      "lesson": null
+    }
+  ]
 }
