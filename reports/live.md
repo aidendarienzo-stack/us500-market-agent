@@ -1,7 +1,7 @@
-# US500 live — Mon Nov 23 14:58:19 ET
+# US500 live — Mon Nov 23 15:13:19 ET
 
-**Price 7245.0**
- · New York cash session · feed: Yahoo Finance (delayed fallback) · last tick Mon Nov 23 14:49:00 ET
+**Price 7262.5**
+ · New York cash session · feed: Yahoo Finance (delayed fallback) · last tick Mon Nov 23 15:04:00 ET
 
 4H structure: **bearish** · settings: target 12, stop 10 (your defaults (no proven edge yet)) · mistake filter OFF
 
@@ -11,12 +11,12 @@
 
 | Where | Type | Zone | Distance |
 |---|---|---|---|
-| above | bear | 7254.0 – 7390.5 | 9.0 pts |
-| above | bear | 7457.8 – 7504.8 | 212.8 pts |
-| above | bear | 7514.2 – 7546.5 | 269.2 pts |
-| above | bear | 7602.8 – 7704.8 | 357.8 pts |
-| below | bull | 7142.5 – 7229.2 | 15.8 pts |
-| below | bull | 7052.5 – 7067.2 | 177.8 pts |
+| inside | bear | 7254.0 – 7390.5 | 0.0 pts |
+| above | bear | 7457.8 – 7504.8 | 195.2 pts |
+| above | bear | 7514.2 – 7546.5 | 251.8 pts |
+| above | bear | 7602.8 – 7704.8 | 340.2 pts |
+| below | bull | 7142.5 – 7229.2 | 33.2 pts |
+| below | bull | 7052.5 – 7067.2 | 195.2 pts |
 
 ## Signals in the last 24 hours
 
@@ -41,18 +41,18 @@
 - Mon Nov 23 11:45:00 ET: SHORT @ 7246.0
 - Mon Nov 23 12:50:00 ET: SHORT @ 7245.8
 - Mon Nov 23 14:45:00 ET: SHORT @ 7253.0
-
-## Open paper trades
-
-- SHORT @ 7253.0, stop 7263.0, target 7241.0 (taken)
+- Mon Nov 23 15:05:00 ET: SHORT @ 7259.8
 
 ## Forward test (live paper trades)
 
-- Every signal: 3 trades, +14.0 pts, win rate 67%
-- Signals the agent chose to take: 3 trades, +14.0 pts, win rate 67%
+- Every signal: 5 trades, +16.0 pts, win rate 60%
+- Signals the agent chose to take: 5 trades, +16.0 pts, win rate 60%
 
 ## Recent events
 
+- Mon Nov 23 15:11:11 ET — Paper trade closed -10.0 pts (LOSS) - logged as a mistake to learn from
+- Mon Nov 23 15:09:11 ET — SHORT signal @ 7259.8 (taken)
+- Mon Nov 23 14:59:25 ET — Paper trade closed +12.0 pts (win)
 - Mon Nov 23 14:49:10 ET — SHORT signal @ 7253.0 (taken)
 - Mon Nov 23 12:57:53 ET — Paper trade closed +12.0 pts (win)
 - Mon Nov 23 12:54:08 ET — SHORT signal @ 7245.8 (taken)

@@ -1,35 +1,5 @@
 {
-  "open": [
-    {
-      "id": "2026-11-23T14:45:00-05:00",
-      "entry_time": "2026-11-23 14:45:00-05:00",
-      "dir": -1,
-      "entry": 7253.0,
-      "stop": 7263.0,
-      "target": 7241.0,
-      "features": {
-        "direction": "short",
-        "session": "New York cash session",
-        "weekday": "Mon",
-        "gap_size": "large",
-        "volatility": "normal",
-        "entry_stretch": "extended",
-        "vs_24h_move": "against"
-      },
-      "taken": true,
-      "assessment": {
-        "win_prob": 0.903,
-        "breakeven": 0.455,
-        "take": true,
-        "reasons": [
-          "entry_stretch = extended: won 6 of 6 weighted trades (85%)",
-          "vs_24h_move = against: won 6 of 9 weighted trades (66%)",
-          "gap_size = large: won 6 of 9 weighted trades (66%)"
-        ]
-      },
-      "issue": 4
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "id": "2026-11-23T11:10:00-05:00",
@@ -123,6 +93,71 @@
       "exit_time": "2026-11-23 17:48:00+00:00",
       "exit": 7233.5,
       "pnl": 12.0
+    },
+    {
+      "id": "2026-11-23T14:45:00-05:00",
+      "entry_time": "2026-11-23 14:45:00-05:00",
+      "dir": -1,
+      "entry": 7253.0,
+      "stop": 7263.0,
+      "target": 7241.0,
+      "features": {
+        "direction": "short",
+        "session": "New York cash session",
+        "weekday": "Mon",
+        "gap_size": "large",
+        "volatility": "normal",
+        "entry_stretch": "extended",
+        "vs_24h_move": "against"
+      },
+      "taken": true,
+      "assessment": {
+        "win_prob": 0.903,
+        "breakeven": 0.455,
+        "take": true,
+        "reasons": [
+          "entry_stretch = extended: won 6 of 6 weighted trades (85%)",
+          "vs_24h_move = against: won 6 of 9 weighted trades (66%)",
+          "gap_size = large: won 6 of 9 weighted trades (66%)"
+        ]
+      },
+      "issue": 4,
+      "exit_time": "2026-11-23 19:50:00+00:00",
+      "exit": 7240.5,
+      "pnl": 12.0
+    },
+    {
+      "id": "2026-11-23T15:05:00-05:00",
+      "entry_time": "2026-11-23 15:05:00-05:00",
+      "dir": -1,
+      "entry": 7259.75,
+      "stop": 7269.75,
+      "target": 7247.75,
+      "features": {
+        "direction": "short",
+        "session": "New York cash session",
+        "weekday": "Mon",
+        "gap_size": "large",
+        "volatility": "normal",
+        "entry_stretch": "extended",
+        "vs_24h_move": "against"
+      },
+      "taken": true,
+      "assessment": {
+        "win_prob": 0.977,
+        "breakeven": 0.455,
+        "take": true,
+        "reasons": [
+          "entry_stretch = extended: won 9 of 9 weighted trades (91%)",
+          "vs_24h_move = against: won 9 of 12 weighted trades (74%)",
+          "gap_size = large: won 9 of 12 weighted trades (74%)"
+        ]
+      },
+      "issue": 5,
+      "exit_time": "2026-11-23 20:02:00+00:00",
+      "exit": 7269.75,
+      "pnl": -10.0,
+      "lesson": null
     }
   ]
 }
