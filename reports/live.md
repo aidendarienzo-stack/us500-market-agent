@@ -1,7 +1,7 @@
-# US500 live — Mon Nov 23 08:56:32 ET
+# US500 live — Mon Nov 23 09:11:32 ET
 
-**Price 7097.0**
- · London / pre-market · feed: Yahoo Finance (delayed fallback) · last tick Mon Nov 23 08:47:00 ET
+**Price 7186.2**
+ · London / pre-market · feed: Yahoo Finance (delayed fallback) · last tick Mon Nov 23 09:02:00 ET
 
 4H structure: **bearish** · settings: target 12, stop 10 (your defaults (no proven edge yet)) · mistake filter OFF
 
@@ -11,11 +11,11 @@
 
 | Where | Type | Zone | Distance |
 |---|---|---|---|
-| above | bear | 7199.2 – 7210.5 | 102.2 pts |
-| above | bear | 7254.0 – 7390.5 | 157.0 pts |
-| above | bear | 7457.8 – 7504.8 | 360.8 pts |
-| above | bear | 7514.2 – 7546.5 | 417.2 pts |
-| below | bull | 7052.5 – 7067.2 | 29.8 pts |
+| above | bear | 7199.2 – 7210.5 | 13.0 pts |
+| above | bear | 7254.0 – 7390.5 | 67.8 pts |
+| above | bear | 7457.8 – 7504.8 | 271.5 pts |
+| above | bear | 7514.2 – 7546.5 | 328.0 pts |
+| below | bull | 7052.5 – 7067.2 | 119.0 pts |
 
 ## Signals in the last 24 hours
 
@@ -39,6 +39,7 @@
 
 ## Recent events
 
+- Mon Nov 23 09:10:06 ET — Price tapped bearish 4H FVG 7199.2–7210.5
 - Mon Nov 23 05:13:20 ET — No new price for 120s (quiet market, holiday, or feed problem)
 
 [Nightly report](daily-latest.md) · [Backtest](backtest.md) · [Lessons](../state/lessons.md) · [TradingView chart](https://www.tradingview.com/chart/M4XmmecI/?symbol=PEPPERSTONE%3AUS500)
