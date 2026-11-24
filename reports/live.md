@@ -1,11 +1,11 @@
-# US500 live — Mon Nov 23 23:59:32 ET
+# US500 live — Tue Nov 24 00:14:32 ET
 
 **Price 7265.2**
  · Asia / overnight · feed: Yahoo Finance (delayed fallback) · last tick Mon Nov 23 23:59:00 ET
 
 4H structure: **range** · settings: target 10, stop 8 (nightly backtest 2026-11-23) · mistake filter OFF
 
-- **SHORT setup armed** since Mon Nov 23 23:45:00 ET after tapping FVG 7254.0–7390.5
+- **SHORT setup armed** since Mon Nov 23 23:55:00 ET after tapping FVG 7254.0–7390.5
 - Last 5m swing high 7271.2 · swing low 7264.5
 
 ## Unfilled 4H fair value gaps
@@ -39,6 +39,7 @@
 
 ## Recent events
 
+- Tue Nov 24 00:01:00 ET — No new price for 120s (quiet market, holiday, or feed problem)
 - Mon Nov 23 22:31:26 ET — Price tapped bearish 4H FVG 7254.0–7390.5
 - Mon Nov 23 22:30:11 ET — No new price for 120s (quiet market, holiday, or feed problem)
 
