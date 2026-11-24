@@ -17,6 +17,30 @@
     "score": -0.5,
     "prediction": -1,
     "confidence": 0.5,
+    "outcome": -1,
+    "outcome_date": "2026-11-24",
+    "outcome_close": 7212.25,
+    "outcome_change": -49.75,
+    "correct": true
+  },
+  {
+    "base_date": "2026-11-24",
+    "base_close": 7212.25,
+    "made_at": "2026-11-24 22:00:03.650295+00:00",
+    "signals": {
+      "trend_50": -1.0,
+      "trend_200": 1.0,
+      "momentum_20d": -1.0,
+      "rsi": -0.207,
+      "last_day": -0.582,
+      "structure_4h": 0.0,
+      "fvg_position": 0.5,
+      "vix_change_5d": -0.177,
+      "breadth": 0.091
+    },
+    "score": -0.108,
+    "prediction": -1,
+    "confidence": 0.108,
     "outcome": null
   }
 ]

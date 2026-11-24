@@ -1,6 +1,6 @@
-# US500 nightly report - session 2026-11-23
+# US500 nightly report - session 2026-11-24
 
-Close **7262.0** · 4H structure **bearish** · VIX 26.62 · Sector breadth 45% above 50-day
+Close **7212.2** · 4H structure **range** · VIX 26.36 · Sector breadth 55% above 50-day
 
 ## Did the agent learn from its mistakes?
 
@@ -15,8 +15,8 @@ If the second row beats the first, skipping its past losing conditions is workin
 
 | | Trades | Win rate | Total pts | Avg pts | Profit factor | Max DD |
 |---|---|---|---|---|---|---|
-| All signals | 14 | 64% | 50.0 | 3.57 | 2.25 | 16.0 |
-| After skipping losing conditions | 6 | 67% | 24.0 | 4.00 | 2.50 | 16.0 |
+| All signals | 12 | 58% | 30.0 | 2.50 | 1.75 | 16.0 |
+| After skipping losing conditions | 9 | 56% | 18.0 | 2.00 | 1.56 | 16.0 |
 
 Mistake filter is **OFF** for live alerts (it has not proven it helps yet, so every signal is alerted).
 
@@ -25,11 +25,11 @@ Mistake filter is **OFF** for live alerts (it has not proven it helps yet, so ev
 | Condition | Win rate | Weighted trades |
 |---|---|---|
 | volatility = normal | 34% | 37.0 |
-| session = Asia / overnight | 37% | 25.0 |
-| weekday = Fri | 40% | 8.0 |
-| entry_stretch = near level | 41% | 37.0 |
+| session = Asia / overnight | 36% | 26.0 |
+| weekday = Fri | 41% | 8.0 |
 | weekday = Wed | 42% | 10.0 |
-| vs_24h_move = against | 43% | 49.0 |
+| vs_24h_move = against | 42% | 50.0 |
+| weekday = Mon | 42% | 38.0 |
 
 **Latest losing trades (post-mortems)**
 
@@ -41,23 +41,25 @@ Mistake filter is **OFF** for live alerts (it has not proven it helps yet, so ev
 
 ## Daily bias model
 
-- Next session call: **DOWN** (confidence 0.50)
+- Call for the session after 2026-11-23: **DOWN** → actual -49.8 pts → **correct**
+- Next session call: **DOWN** (confidence 0.11)
+- Track record: 100% correct over 1 calls (last 30: 100%); 'always up' would have scored 0%
 
 | Signal | Today | Learned weight | Hit rate |
 |---|---|---|---|
-| trend_50 | -1.00 | +1.00 | - |
-| trend_200 | +1.00 | +0.80 | - |
-| momentum_20d | -1.00 | +0.50 | - |
-| rsi | -0.18 | +0.00 | - |
-| last_day | +1.00 | +0.00 | - |
-| structure_4h | -1.00 | +1.00 | - |
-| fvg_position | -0.50 | +0.50 | - |
-| vix_change_5d | -0.81 | +0.50 | - |
-| breadth | -0.09 | +0.50 | - |
+| trend_50 | -1.00 | +1.01 | 100% of 1 |
+| trend_200 | +1.00 | +0.79 | 0% of 1 |
+| momentum_20d | -1.00 | +0.51 | 100% of 1 |
+| rsi | -0.21 | +0.00 | 100% of 1 |
+| last_day | -0.58 | -0.01 | 0% of 1 |
+| structure_4h | +0.00 | +1.01 | 100% of 1 |
+| fvg_position | +0.50 | +0.51 | 100% of 1 |
+| vix_change_5d | -0.18 | +0.51 | 100% of 1 |
+| breadth | +0.09 | +0.50 | 100% of 1 |
 
 ## Strategy backtest
 
-Best settings on older data: target **10**, stop **8**, 5m swing 3. On newer unseen data: 14 trades, 50.0 pts. **Edge holds on unseen data.**
+Best settings on older data: target **10**, stop **8**, 5m swing 3. On newer unseen data: 12 trades, 30.0 pts. **Edge holds on unseen data.**
 Full grid: [backtest.md](../backtest.md)
 
 [Open your TradingView chart](https://www.tradingview.com/chart/M4XmmecI/?symbol=PEPPERSTONE%3AUS500) · Research only, not financial advice.

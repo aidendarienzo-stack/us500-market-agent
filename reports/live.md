@@ -1,9 +1,9 @@
-# US500 live — Tue Nov 24 16:59:53 ET
+# US500 live — Tue Nov 24 17:00:00 ET
 
 **Price 7212.5**
- · Asia / overnight · feed: Yahoo Finance (delayed fallback) · last tick Tue Nov 24 16:50:00 ET
+ · closed · feed: Yahoo Finance (delayed fallback) · last tick Tue Nov 24 16:50:00 ET
 
-4H structure: **range** · settings: target 10, stop 8 (nightly backtest 2026-11-23) · mistake filter OFF
+4H structure: **range** · settings: target 10, stop 8 (nightly backtest 2026-11-24) · mistake filter OFF
 
 - **LONG setup armed** since Tue Nov 24 16:50:00 ET after tapping FVG 7142.5–7222.8
 - Last 5m swing high 7222.0 · swing low 7206.5
