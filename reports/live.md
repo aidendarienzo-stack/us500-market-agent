@@ -1,7 +1,7 @@
-# US500 live — Wed Nov 25 02:30:58 ET
+# US500 live — Wed Nov 25 02:45:58 ET
 
-**Price 7139.5**
- · Asia / overnight · feed: Yahoo Finance (delayed fallback) · last tick Wed Nov 25 02:21:00 ET
+**Price 7133.8**
+ · Asia / overnight · feed: Yahoo Finance (delayed fallback) · last tick Wed Nov 25 02:36:00 ET
 
 4H structure: **bullish** · settings: target 10, stop 8 (nightly backtest 2026-11-24) · mistake filter OFF
 
@@ -12,11 +12,11 @@
 
 | Where | Type | Zone | Distance |
 |---|---|---|---|
-| above | bull | 7142.5 – 7222.8 | 3.0 pts |
-| above | bear | 7235.2 – 7247.5 | 95.8 pts |
-| above | bear | 7254.0 – 7390.5 | 114.5 pts |
-| above | bear | 7457.8 – 7504.8 | 318.2 pts |
-| below | bull | 7052.5 – 7067.2 | 72.2 pts |
+| above | bear | 7235.2 – 7247.5 | 101.5 pts |
+| above | bear | 7254.0 – 7390.5 | 120.2 pts |
+| above | bear | 7457.8 – 7504.8 | 324.0 pts |
+| above | bear | 7514.2 – 7546.5 | 380.5 pts |
+| below | bull | 7052.5 – 7067.2 | 66.5 pts |
 
 ## Signals in the last 24 hours
 
