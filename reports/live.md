@@ -1,4 +1,4 @@
-# US500 live — Wed Nov 25 17:50:33 ET
+# US500 live — Wed Nov 25 17:51:04 ET
 
 **Price 7188.0**
  · closed · feed: Yahoo Finance (delayed fallback) · last tick Wed Nov 25 16:50:00 ET
