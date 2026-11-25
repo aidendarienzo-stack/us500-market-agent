@@ -1,35 +1,5 @@
 {
-  "open": [
-    {
-      "id": "2026-11-25T03:40:00-05:00",
-      "entry_time": "2026-11-25 03:40:00-05:00",
-      "dir": 1,
-      "entry": 7164.5,
-      "stop": 7156.5,
-      "target": 7174.5,
-      "features": {
-        "direction": "long",
-        "session": "London / pre-market",
-        "weekday": "Wed",
-        "gap_size": "large",
-        "volatility": "normal",
-        "entry_stretch": "extended",
-        "vs_24h_move": "against"
-      },
-      "taken": true,
-      "assessment": {
-        "win_prob": 0.13,
-        "breakeven": 0.444,
-        "take": false,
-        "reasons": [
-          "direction = long: won 10 of 52 weighted trades (20%)",
-          "weekday = Wed: won 4 of 22 weighted trades (20%)",
-          "vs_24h_move = against: won 21 of 83 weighted trades (26%)"
-        ]
-      },
-      "issue": 20
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "id": "2026-11-23T11:10:00-05:00",
@@ -648,6 +618,39 @@
       "issue": 19,
       "exit_time": "2026-11-25 06:56:00+00:00",
       "exit": 7152.25,
+      "pnl": -8.0,
+      "lesson": null
+    },
+    {
+      "id": "2026-11-25T03:40:00-05:00",
+      "entry_time": "2026-11-25 03:40:00-05:00",
+      "dir": 1,
+      "entry": 7164.5,
+      "stop": 7156.5,
+      "target": 7174.5,
+      "features": {
+        "direction": "long",
+        "session": "London / pre-market",
+        "weekday": "Wed",
+        "gap_size": "large",
+        "volatility": "normal",
+        "entry_stretch": "extended",
+        "vs_24h_move": "against"
+      },
+      "taken": true,
+      "assessment": {
+        "win_prob": 0.13,
+        "breakeven": 0.444,
+        "take": false,
+        "reasons": [
+          "direction = long: won 10 of 52 weighted trades (20%)",
+          "weekday = Wed: won 4 of 22 weighted trades (20%)",
+          "vs_24h_move = against: won 21 of 83 weighted trades (26%)"
+        ]
+      },
+      "issue": 20,
+      "exit_time": "2026-11-25 08:52:00+00:00",
+      "exit": 7156.5,
       "pnl": -8.0,
       "lesson": null
     }
