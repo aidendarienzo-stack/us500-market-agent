@@ -1,56 +1,57 @@
 {
   "weights": {
-    "trend_50": 1.0125,
-    "trend_200": 0.7875,
-    "momentum_20d": 0.5125,
-    "rsi": 0.0022,
-    "last_day": -0.0125,
+    "trend_50": 1.025,
+    "trend_200": 0.775,
+    "momentum_20d": 0.525,
+    "rsi": 0.0048,
+    "last_day": -0.0052,
     "structure_4h": 1.0125,
-    "fvg_position": 0.5062,
-    "vix_change_5d": 0.5101,
-    "breadth": 0.5011
+    "fvg_position": 0.5,
+    "vix_change_5d": 0.5123,
+    "breadth": 0.5
   },
-  "resolved": 1,
-  "correct": 1,
+  "resolved": 2,
+  "correct": 2,
   "baseline_correct": 0,
   "recent": [
+    1,
     1
   ],
   "signal_stats": {
     "trend_50": {
-      "n": 1,
-      "hits": 1
+      "n": 2,
+      "hits": 2
     },
     "trend_200": {
-      "n": 1,
+      "n": 2,
       "hits": 0
     },
     "momentum_20d": {
-      "n": 1,
-      "hits": 1
+      "n": 2,
+      "hits": 2
     },
     "rsi": {
-      "n": 1,
-      "hits": 1
+      "n": 2,
+      "hits": 2
     },
     "last_day": {
-      "n": 1,
-      "hits": 0
+      "n": 2,
+      "hits": 1
     },
     "structure_4h": {
       "n": 1,
       "hits": 1
     },
     "fvg_position": {
-      "n": 1,
+      "n": 2,
       "hits": 1
     },
     "vix_change_5d": {
-      "n": 1,
-      "hits": 1
+      "n": 2,
+      "hits": 2
     },
     "breadth": {
-      "n": 1,
+      "n": 2,
       "hits": 1
     }
   },

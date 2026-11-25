@@ -84,5 +84,48 @@
         "max_dd_pts": 16.0
       }
     }
+  },
+  {
+    "date": "2026-11-25",
+    "best": {
+      "swing_5m": 3,
+      "target": 10,
+      "stop": 8
+    },
+    "in_sample": {
+      "trades": 38,
+      "win_rate": 0.474,
+      "total_pts": 14.5,
+      "avg_pts": 0.38,
+      "profit_factor": 1.09,
+      "max_dd_pts": 32.0
+    },
+    "out_of_sample": {
+      "trades": 14,
+      "win_rate": 0.571,
+      "total_pts": 32.0,
+      "avg_pts": 2.29,
+      "profit_factor": 1.67,
+      "max_dd_pts": 24.0
+    },
+    "edge": true,
+    "filter_test": {
+      "unfiltered": {
+        "trades": 14,
+        "win_rate": 0.571,
+        "total_pts": 32.0,
+        "avg_pts": 2.29,
+        "profit_factor": 1.67,
+        "max_dd_pts": 24.0
+      },
+      "filtered": {
+        "trades": 8,
+        "win_rate": 0.625,
+        "total_pts": 26.0,
+        "avg_pts": 3.25,
+        "profit_factor": 2.08,
+        "max_dd_pts": 16.0
+      }
+    }
   }
 ]
