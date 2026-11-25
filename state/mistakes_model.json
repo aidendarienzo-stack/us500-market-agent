@@ -92,7 +92,7 @@
   "live": {
     "__all__": {
       "w": 3.0,
-      "n": 11.0
+      "n": 12.0
     },
     "direction=short": {
       "w": 3.0,
@@ -108,7 +108,7 @@
     },
     "gap_size=large": {
       "w": 3.0,
-      "n": 11.0
+      "n": 12.0
     },
     "volatility=high": {
       "w": 2.0,
@@ -116,11 +116,11 @@
     },
     "entry_stretch=near level": {
       "w": 0.0,
-      "n": 1.0
+      "n": 2.0
     },
     "vs_24h_move=against": {
       "w": 3.0,
-      "n": 11.0
+      "n": 12.0
     },
     "entry_stretch=extended": {
       "w": 3.0,
@@ -132,19 +132,19 @@
     },
     "session=Asia / overnight": {
       "w": 0.0,
-      "n": 5.0
+      "n": 6.0
     },
     "direction=long": {
       "w": 0.0,
-      "n": 3.0
+      "n": 4.0
     },
     "weekday=Tue": {
       "w": 0.0,
-      "n": 3.0
+      "n": 4.0
     },
     "volatility=low": {
       "w": 0.0,
-      "n": 3.0
+      "n": 4.0
     }
   },
   "post_mortems": [
@@ -344,6 +344,32 @@
       },
       "agent_estimate": {
         "win_prob": 0.662,
+        "breakeven": 0.444,
+        "take": true,
+        "reasons": [
+          "weekday = Tue: won 7 of 9 weighted trades (68%)",
+          "volatility = low: won 4 of 7 weighted trades (53%)",
+          "direction = long: won 10 of 19 weighted trades (52%)"
+        ]
+      },
+      "lesson": null
+    },
+    {
+      "entry_time": "2026-11-24 20:30:00-05:00",
+      "direction": "long",
+      "entry": 7198.5,
+      "pnl": -8.0,
+      "conditions": {
+        "direction": "long",
+        "session": "Asia / overnight",
+        "weekday": "Tue",
+        "gap_size": "large",
+        "volatility": "low",
+        "entry_stretch": "near level",
+        "vs_24h_move": "against"
+      },
+      "agent_estimate": {
+        "win_prob": 0.602,
         "breakeven": 0.444,
         "take": true,
         "reasons": [
