@@ -1,20 +1,22 @@
-# US500 live — Wed Nov 25 12:16:56 ET
+# US500 live — Wed Nov 25 12:31:56 ET
 
-**Price 7077.2**
- · New York cash session · feed: Yahoo Finance (delayed fallback) · last tick Wed Nov 25 12:07:00 ET
+**Price 7117.0**
+ · New York cash session · feed: Yahoo Finance (delayed fallback) · last tick Wed Nov 25 12:22:00 ET
 
 4H structure: **bullish** · settings: target 10, stop 8 (nightly backtest 2026-11-24) · mistake filter OFF
 
+- **SHORT setup armed** since Wed Nov 25 12:20:00 ET after tapping FVG 7116.8–7150.0
 - Last 5m swing high 7024.8 · swing low 7007.8
 
 ## Unfilled 4H fair value gaps
 
 | Where | Type | Zone | Distance |
 |---|---|---|---|
-| above | bear | 7116.8 – 7150.0 | 39.5 pts |
-| above | bear | 7235.2 – 7247.5 | 158.0 pts |
-| above | bear | 7254.0 – 7390.5 | 176.8 pts |
-| above | bear | 7457.8 – 7504.8 | 380.5 pts |
+| inside | bear | 7116.8 – 7150.0 | 0.0 pts |
+| above | bear | 7235.2 – 7247.5 | 118.2 pts |
+| above | bear | 7254.0 – 7390.5 | 137.0 pts |
+| above | bear | 7457.8 – 7504.8 | 340.8 pts |
+| above | bear | 7514.2 – 7546.5 | 397.2 pts |
 
 ## Signals in the last 24 hours
 
@@ -30,6 +32,7 @@
 
 ## Recent events
 
+- Wed Nov 25 12:26:48 ET — Price tapped bearish 4H FVG 7116.8–7150.0
 - Wed Nov 25 11:35:47 ET — Watch: price above 5m swing high 7040.2; long triggers if this 5m candle closes above it
 - Wed Nov 25 10:16:32 ET — Watch: price above 5m swing high 7074.0; long triggers if this 5m candle closes above it
 - Wed Nov 25 09:07:01 ET — Price tapped bullish 4H FVG 7052.5–7067.2
