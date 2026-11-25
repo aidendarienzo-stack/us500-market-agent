@@ -1,12 +1,12 @@
 {
   "open": [
     {
-      "id": "2026-11-25T01:20:00-05:00",
-      "entry_time": "2026-11-25 01:20:00-05:00",
+      "id": "2026-11-25T01:30:00-05:00",
+      "entry_time": "2026-11-25 01:30:00-05:00",
       "dir": 1,
-      "entry": 7169.0,
-      "stop": 7161.0,
-      "target": 7179.0,
+      "entry": 7163.25,
+      "stop": 7155.25,
+      "target": 7173.25,
       "features": {
         "direction": "long",
         "session": "Asia / overnight",
@@ -27,36 +27,36 @@
           "direction = long: won 10 of 40 weighted trades (26%)"
         ]
       },
-      "issue": 16
+      "issue": 18
     },
     {
-      "id": "2026-11-25T01:25:00-05:00",
-      "entry_time": "2026-11-25 01:25:00-05:00",
+      "id": "2026-11-25T01:35:00-05:00",
+      "entry_time": "2026-11-25 01:35:00-05:00",
       "dir": 1,
-      "entry": 7169.5,
-      "stop": 7161.5,
-      "target": 7179.5,
+      "entry": 7160.75,
+      "stop": 7152.75,
+      "target": 7170.75,
       "features": {
         "direction": "long",
         "session": "Asia / overnight",
         "weekday": "Wed",
         "gap_size": "large",
         "volatility": "low",
-        "entry_stretch": "extended",
+        "entry_stretch": "near level",
         "vs_24h_move": "against"
       },
       "taken": true,
       "assessment": {
-        "win_prob": 0.038,
+        "win_prob": 0.019,
         "breakeven": 0.444,
         "take": false,
         "reasons": [
-          "volatility = low: won 4 of 28 weighted trades (17%)",
-          "session = Asia / overnight: won 9 of 47 weighted trades (21%)",
-          "direction = long: won 10 of 40 weighted trades (26%)"
+          "volatility = low: won 4 of 34 weighted trades (14%)",
+          "session = Asia / overnight: won 9 of 53 weighted trades (18%)",
+          "direction = long: won 10 of 46 weighted trades (23%)"
         ]
       },
-      "issue": 17
+      "issue": 19
     }
   ],
   "closed": [
@@ -545,6 +545,72 @@
       "issue": 13,
       "exit_time": "2026-11-25 03:49:00+00:00",
       "exit": 7172.75,
+      "pnl": -8.0,
+      "lesson": null
+    },
+    {
+      "id": "2026-11-25T01:25:00-05:00",
+      "entry_time": "2026-11-25 01:25:00-05:00",
+      "dir": 1,
+      "entry": 7169.5,
+      "stop": 7161.5,
+      "target": 7179.5,
+      "features": {
+        "direction": "long",
+        "session": "Asia / overnight",
+        "weekday": "Wed",
+        "gap_size": "large",
+        "volatility": "low",
+        "entry_stretch": "extended",
+        "vs_24h_move": "against"
+      },
+      "taken": true,
+      "assessment": {
+        "win_prob": 0.038,
+        "breakeven": 0.444,
+        "take": false,
+        "reasons": [
+          "volatility = low: won 4 of 28 weighted trades (17%)",
+          "session = Asia / overnight: won 9 of 47 weighted trades (21%)",
+          "direction = long: won 10 of 40 weighted trades (26%)"
+        ]
+      },
+      "issue": 17,
+      "exit_time": "2026-11-25 06:29:00+00:00",
+      "exit": 7161.5,
+      "pnl": -8.0,
+      "lesson": null
+    },
+    {
+      "id": "2026-11-25T01:20:00-05:00",
+      "entry_time": "2026-11-25 01:20:00-05:00",
+      "dir": 1,
+      "entry": 7169.0,
+      "stop": 7161.0,
+      "target": 7179.0,
+      "features": {
+        "direction": "long",
+        "session": "Asia / overnight",
+        "weekday": "Wed",
+        "gap_size": "large",
+        "volatility": "low",
+        "entry_stretch": "extended",
+        "vs_24h_move": "against"
+      },
+      "taken": true,
+      "assessment": {
+        "win_prob": 0.038,
+        "breakeven": 0.444,
+        "take": false,
+        "reasons": [
+          "volatility = low: won 4 of 28 weighted trades (17%)",
+          "session = Asia / overnight: won 9 of 47 weighted trades (21%)",
+          "direction = long: won 10 of 40 weighted trades (26%)"
+        ]
+      },
+      "issue": 16,
+      "exit_time": "2026-11-25 06:29:00+00:00",
+      "exit": 7160.75,
       "pnl": -8.0,
       "lesson": null
     }
