@@ -1,5 +1,35 @@
 {
-  "open": [],
+  "open": [
+    {
+      "id": "2026-11-24T22:40:00-05:00",
+      "entry_time": "2026-11-24 22:40:00-05:00",
+      "dir": 1,
+      "entry": 7181.0,
+      "stop": 7173.0,
+      "target": 7191.0,
+      "features": {
+        "direction": "long",
+        "session": "Asia / overnight",
+        "weekday": "Tue",
+        "gap_size": "large",
+        "volatility": "low",
+        "entry_stretch": "near level",
+        "vs_24h_move": "against"
+      },
+      "taken": true,
+      "assessment": {
+        "win_prob": 0.058,
+        "breakeven": 0.444,
+        "take": false,
+        "reasons": [
+          "volatility = low: won 4 of 19 weighted trades (24%)",
+          "session = Asia / overnight: won 9 of 38 weighted trades (25%)",
+          "direction = long: won 10 of 31 weighted trades (33%)"
+        ]
+      },
+      "issue": 13
+    }
+  ],
   "closed": [
     {
       "id": "2026-11-23T11:10:00-05:00",
