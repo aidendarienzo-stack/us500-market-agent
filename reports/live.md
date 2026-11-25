@@ -1,21 +1,21 @@
-# US500 live — Wed Nov 25 14:01:57 ET
+# US500 live — Wed Nov 25 14:16:57 ET
 
-**Price 7198.0**
- · New York cash session · feed: Yahoo Finance (delayed fallback) · last tick Wed Nov 25 13:52:00 ET
+**Price 7205.5**
+ · New York cash session · feed: Yahoo Finance (delayed fallback) · last tick Wed Nov 25 14:07:00 ET
 
 4H structure: **bullish** · settings: target 10, stop 8 (nightly backtest 2026-11-24) · mistake filter OFF
 
 - **SHORT setup armed** since Wed Nov 25 13:15:00 ET after tapping FVG 7116.8–7150.0
-- Last 5m swing high 7127.2 · swing low 7007.8
+- Last 5m swing high 7127.2 · swing low 7159.5
 
 ## Unfilled 4H fair value gaps
 
 | Where | Type | Zone | Distance |
 |---|---|---|---|
-| above | bear | 7235.2 – 7247.5 | 37.2 pts |
-| above | bear | 7254.0 – 7390.5 | 56.0 pts |
-| above | bear | 7457.8 – 7504.8 | 259.8 pts |
-| above | bear | 7514.2 – 7546.5 | 316.2 pts |
+| above | bear | 7235.2 – 7247.5 | 29.8 pts |
+| above | bear | 7254.0 – 7390.5 | 48.5 pts |
+| above | bear | 7457.8 – 7504.8 | 252.2 pts |
+| above | bear | 7514.2 – 7546.5 | 308.8 pts |
 
 ## Signals in the last 24 hours
 
