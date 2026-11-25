@@ -1,22 +1,22 @@
-# US500 live — Wed Nov 25 03:28:13 ET
+# US500 live — Wed Nov 25 03:43:13 ET
 
-**Price 7147.0**
- · London / pre-market · feed: Yahoo Finance (delayed fallback) · last tick Wed Nov 25 03:19:00 ET
+**Price 7163.8**
+ · London / pre-market · feed: Yahoo Finance (delayed fallback) · last tick Wed Nov 25 03:34:00 ET
 
 4H structure: **bullish** · settings: target 10, stop 8 (nightly backtest 2026-11-24) · mistake filter OFF
 
 - **LONG setup armed** since Wed Nov 25 02:15:00 ET after tapping FVG 7142.5–7222.8
-- Last 5m swing high 7169.2 · swing low 7120.5
+- Last 5m swing high 7152.2 · swing low 7120.5
 
 ## Unfilled 4H fair value gaps
 
 | Where | Type | Zone | Distance |
 |---|---|---|---|
-| above | bear | 7235.2 – 7247.5 | 88.2 pts |
-| above | bear | 7254.0 – 7390.5 | 107.0 pts |
-| above | bear | 7457.8 – 7504.8 | 310.8 pts |
-| above | bear | 7514.2 – 7546.5 | 367.2 pts |
-| below | bull | 7052.5 – 7067.2 | 79.8 pts |
+| above | bear | 7235.2 – 7247.5 | 71.5 pts |
+| above | bear | 7254.0 – 7390.5 | 90.2 pts |
+| above | bear | 7457.8 – 7504.8 | 294.0 pts |
+| above | bear | 7514.2 – 7546.5 | 350.5 pts |
+| below | bull | 7052.5 – 7067.2 | 96.5 pts |
 
 ## Signals in the last 24 hours
 
@@ -31,6 +31,7 @@
 
 ## Recent events
 
+- Wed Nov 25 03:39:54 ET — Watch: price above 5m swing high 7152.2; long triggers if this 5m candle closes above it
 - Wed Nov 25 03:18:09 ET — No new price for 120s (quiet market, holiday, or feed problem)
 
 [Nightly report](daily-latest.md) · [Backtest](backtest.md) · [Lessons](../state/lessons.md) · [TradingView chart](https://www.tradingview.com/chart/M4XmmecI/?symbol=PEPPERSTONE%3AUS500)
