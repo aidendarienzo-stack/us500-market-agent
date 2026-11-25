@@ -1,28 +1,32 @@
-# US500 live — Wed Nov 25 03:43:13 ET
+# US500 live — Wed Nov 25 03:58:14 ET
 
-**Price 7163.8**
- · London / pre-market · feed: Yahoo Finance (delayed fallback) · last tick Wed Nov 25 03:34:00 ET
+**Price 7165.2**
+ · London / pre-market · feed: Yahoo Finance (delayed fallback) · last tick Wed Nov 25 03:49:00 ET
 
 4H structure: **bullish** · settings: target 10, stop 8 (nightly backtest 2026-11-24) · mistake filter OFF
 
-- **LONG setup armed** since Wed Nov 25 02:15:00 ET after tapping FVG 7142.5–7222.8
-- Last 5m swing high 7152.2 · swing low 7120.5
+- Last 5m swing high 7152.2 · swing low 7144.5
 
 ## Unfilled 4H fair value gaps
 
 | Where | Type | Zone | Distance |
 |---|---|---|---|
-| above | bear | 7235.2 – 7247.5 | 71.5 pts |
-| above | bear | 7254.0 – 7390.5 | 90.2 pts |
-| above | bear | 7457.8 – 7504.8 | 294.0 pts |
-| above | bear | 7514.2 – 7546.5 | 350.5 pts |
-| below | bull | 7052.5 – 7067.2 | 96.5 pts |
+| above | bear | 7235.2 – 7247.5 | 70.0 pts |
+| above | bear | 7254.0 – 7390.5 | 88.8 pts |
+| above | bear | 7457.8 – 7504.8 | 292.5 pts |
+| above | bear | 7514.2 – 7546.5 | 349.0 pts |
+| below | bull | 7052.5 – 7067.2 | 98.0 pts |
 
 ## Signals in the last 24 hours
 
 - Tue Nov 24 20:15:00 ET: LONG @ 7204.0
 - Tue Nov 24 22:40:00 ET: LONG @ 7185.0
 - Tue Nov 24 22:45:00 ET: LONG @ 7183.5
+- Wed Nov 25 03:40:00 ET: LONG @ 7164.5
+
+## Open paper trades
+
+- LONG @ 7164.5, stop 7156.5, target 7174.5 (taken)
 
 ## Forward test (live paper trades)
 
@@ -31,6 +35,7 @@
 
 ## Recent events
 
+- Wed Nov 25 03:44:10 ET — LONG signal @ 7164.5 (taken)
 - Wed Nov 25 03:39:54 ET — Watch: price above 5m swing high 7152.2; long triggers if this 5m candle closes above it
 - Wed Nov 25 03:18:09 ET — No new price for 120s (quiet market, holiday, or feed problem)
 
