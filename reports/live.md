@@ -1,4 +1,4 @@
-# US500 live — Wed Nov 25 00:00:56 ET
+# US500 live — Wed Nov 25 00:15:56 ET
 
 **Price 7168.2**
  · Asia / overnight · feed: Yahoo Finance (delayed fallback) · last tick Tue Nov 24 23:59:00 ET
@@ -33,6 +33,7 @@
 
 ## Recent events
 
+- Wed Nov 25 00:01:00 ET — No new price for 120s (quiet market, holiday, or feed problem)
 - Tue Nov 24 22:58:52 ET — Paper trade closed -8.0 pts (LOSS) - logged as a mistake to learn from
 - Tue Nov 24 22:58:21 ET — Paper trade closed -8.0 pts (LOSS) - logged as a mistake to learn from
 - Tue Nov 24 22:58:05 ET — Paper trade closed -8.0 pts (LOSS) - logged as a mistake to learn from
