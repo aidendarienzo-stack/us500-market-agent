@@ -1,4 +1,4 @@
-# US500 live — Thu Nov 26 08:05:41 ET
+# US500 live — Thu Nov 26 08:20:22 ET
 
 **Price 7247.8**
  · London / pre-market · feed: Yahoo Finance (delayed fallback) · last tick Wed Nov 25 23:59:00 ET
@@ -27,7 +27,7 @@
 
 ## Recent events
 
-- Thu Nov 26 02:20:41 ET — No new price for 120s (quiet market, holiday, or feed problem)
+- Thu Nov 26 08:06:18 ET — No new price for 120s (quiet market, holiday, or feed problem)
 
 [Nightly report](daily-latest.md) · [Backtest](backtest.md) · [Lessons](../state/lessons.md) · [TradingView chart](https://www.tradingview.com/chart/M4XmmecI/?symbol=PEPPERSTONE%3AUS500)
 
