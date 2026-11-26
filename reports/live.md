@@ -1,4 +1,4 @@
-# US500 live — Thu Nov 26 06:34:56 ET
+# US500 live — Thu Nov 26 06:49:56 ET
 
 **Price 7247.8**
  · London / pre-market · feed: Yahoo Finance (delayed fallback) · last tick Wed Nov 25 23:59:00 ET
