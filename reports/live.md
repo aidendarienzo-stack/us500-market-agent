@@ -1,11 +1,11 @@
-# US500 live — Thu Nov 26 02:19:59 ET
+# US500 live — Thu Nov 26 02:34:54 ET
 
 **Price 7247.8**
  · Asia / overnight · feed: Yahoo Finance (delayed fallback) · last tick Wed Nov 25 23:59:00 ET
 
 4H structure: **range** · settings: target 10, stop 8 (nightly backtest 2026-11-25) · mistake filter OFF
 
-- Last 5m swing high 7237.8 · swing low 7240.0
+- Last 5m swing high 7248.8 · swing low 7238.2
 
 ## Unfilled 4H fair value gaps
 
@@ -27,9 +27,7 @@
 
 ## Recent events
 
-- Thu Nov 26 00:01:00 ET — No new price for 120s (quiet market, holiday, or feed problem)
-- Wed Nov 25 20:34:59 ET — No new price for 120s (quiet market, holiday, or feed problem)
-- Wed Nov 25 20:34:59 ET — Price tapped bearish 4H FVG 7235.2–7247.5
+- Thu Nov 26 02:20:41 ET — No new price for 120s (quiet market, holiday, or feed problem)
 
 [Nightly report](daily-latest.md) · [Backtest](backtest.md) · [Lessons](../state/lessons.md) · [TradingView chart](https://www.tradingview.com/chart/M4XmmecI/?symbol=PEPPERSTONE%3AUS500)
 
