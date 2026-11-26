@@ -1,6 +1,6 @@
-# US500 nightly report - session 2026-11-25
+# US500 nightly report - session 2026-11-26
 
-Close **7188.5** · 4H structure **bullish** · VIX 28.29 · Sector breadth 64% above 50-day
+Close **7234.5** · 4H structure **range** · VIX 26.80 · Sector breadth 64% above 50-day
 
 ## Did the agent learn from its mistakes?
 
@@ -16,20 +16,20 @@ If the second row beats the first, skipping its past losing conditions is workin
 | | Trades | Win rate | Total pts | Avg pts | Profit factor | Max DD |
 |---|---|---|---|---|---|---|
 | All signals | 14 | 57% | 32.0 | 2.29 | 1.67 | 24.0 |
-| After skipping losing conditions | 8 | 62% | 26.0 | 3.25 | 2.08 | 16.0 |
+| After skipping losing conditions | 6 | 83% | 42.0 | 7.00 | 6.25 | 8.0 |
 
-Mistake filter is **OFF** for live alerts (it has not proven it helps yet, so every signal is alerted).
+Mistake filter is **ON** for live alerts (it improved results on unseen data).
 
 **Conditions that have lost the most** (backtest + live, live counts 3x):
 
 | Condition | Win rate | Weighted trades |
 |---|---|---|
-| volatility = low | 12% | 40.0 |
-| session = Asia / overnight | 16% | 61.0 |
-| direction = long | 20% | 58.0 |
+| volatility = low | 10% | 39.0 |
+| session = Asia / overnight | 14% | 60.0 |
+| direction = long | 18% | 57.0 |
+| weekday = Tue | 21% | 31.0 |
 | weekday = Wed | 21% | 26.0 |
-| weekday = Tue | 23% | 32.0 |
-| vs_24h_move = against | 25% | 89.0 |
+| vs_24h_move = against | 23% | 87.0 |
 
 **Latest losing trades (post-mortems)**
 
@@ -41,21 +41,21 @@ Mistake filter is **OFF** for live alerts (it has not proven it helps yet, so ev
 
 ## Daily bias model
 
-- Call for the session after 2026-11-24: **DOWN** → actual -23.8 pts → **correct**
-- Next session call: **DOWN** (confidence 0.00)
-- Track record: 100% correct over 2 calls (last 30: 100%); 'always up' would have scored 0%
+- Call for the session after 2026-11-25: **DOWN** → actual +46.0 pts → **WRONG**
+- Next session call: **DOWN** (confidence 0.07)
+- Track record: 67% correct over 3 calls (last 30: 67%); 'always up' would have scored 33%
 
 | Signal | Today | Learned weight | Hit rate |
 |---|---|---|---|
-| trend_50 | -1.00 | +1.02 | 100% of 2 |
-| trend_200 | +1.00 | +0.78 | 0% of 2 |
-| momentum_20d | -1.00 | +0.53 | 100% of 2 |
-| rsi | -0.22 | +0.00 | 100% of 2 |
-| last_day | -0.40 | -0.01 | 50% of 2 |
-| structure_4h | +1.00 | +1.01 | 100% of 1 |
+| trend_50 | -1.00 | +0.97 | 67% of 3 |
+| trend_200 | +1.00 | +0.82 | 33% of 3 |
+| momentum_20d | -1.00 | +0.47 | 67% of 3 |
+| rsi | -0.18 | -0.01 | 67% of 3 |
+| last_day | +0.54 | -0.03 | 33% of 3 |
+| structure_4h | +0.00 | +1.06 | 100% of 2 |
 | fvg_position | +0.00 | +0.50 | 50% of 2 |
-| vix_change_5d | -0.76 | +0.51 | 100% of 2 |
-| breadth | +0.27 | +0.50 | 50% of 2 |
+| vix_change_5d | +0.29 | +0.47 | 67% of 3 |
+| breadth | +0.27 | +0.51 | 67% of 3 |
 
 ## Strategy backtest
 

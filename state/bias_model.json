@@ -1,59 +1,73 @@
 {
   "weights": {
-    "trend_50": 1.025,
-    "trend_200": 0.775,
-    "momentum_20d": 0.525,
-    "rsi": 0.0048,
-    "last_day": -0.0052,
-    "structure_4h": 1.0125,
+    "trend_50": 0.975,
+    "trend_200": 0.825,
+    "momentum_20d": 0.475,
+    "rsi": -0.0063,
+    "last_day": -0.0253,
+    "structure_4h": 1.0625,
     "fvg_position": 0.5,
-    "vix_change_5d": 0.5123,
-    "breadth": 0.5
+    "vix_change_5d": 0.4743,
+    "breadth": 0.5137
   },
-  "resolved": 2,
+  "resolved": 3,
   "correct": 2,
-  "baseline_correct": 0,
+  "baseline_correct": 1,
   "recent": [
     1,
-    1
+    1,
+    0
   ],
   "signal_stats": {
     "trend_50": {
-      "n": 2,
+      "n": 3,
       "hits": 2
     },
     "trend_200": {
-      "n": 2,
-      "hits": 0
+      "n": 3,
+      "hits": 1
     },
     "momentum_20d": {
-      "n": 2,
+      "n": 3,
       "hits": 2
     },
     "rsi": {
-      "n": 2,
+      "n": 3,
       "hits": 2
     },
     "last_day": {
-      "n": 2,
+      "n": 3,
       "hits": 1
     },
     "structure_4h": {
-      "n": 1,
-      "hits": 1
+      "n": 2,
+      "hits": 2
     },
     "fvg_position": {
       "n": 2,
       "hits": 1
     },
     "vix_change_5d": {
-      "n": 2,
+      "n": 3,
       "hits": 2
     },
     "breadth": {
-      "n": 2,
-      "hits": 1
+      "n": 3,
+      "hits": 2
     }
   },
-  "mistakes": []
+  "mistakes": [
+    {
+      "date": "2026-11-26",
+      "predicted": "down",
+      "actual_change": 46.0,
+      "misleading_signals": [
+        "trend_50",
+        "momentum_20d",
+        "rsi",
+        "last_day",
+        "vix_change_5d"
+      ]
+    }
+  ]
 }

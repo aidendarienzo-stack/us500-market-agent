@@ -65,6 +65,30 @@
     "score": -0.003,
     "prediction": -1,
     "confidence": 0.003,
+    "outcome": 1,
+    "outcome_date": "2026-11-26",
+    "outcome_close": 7234.5,
+    "outcome_change": 46.0,
+    "correct": false
+  },
+  {
+    "base_date": "2026-11-26",
+    "base_close": 7234.5,
+    "made_at": "2026-11-26 22:00:05.625771+00:00",
+    "signals": {
+      "trend_50": -1.0,
+      "trend_200": 1.0,
+      "momentum_20d": -1.0,
+      "rsi": -0.18,
+      "last_day": 0.539,
+      "structure_4h": 0.0,
+      "fvg_position": 0.0,
+      "vix_change_5d": 0.288,
+      "breadth": 0.273
+    },
+    "score": -0.074,
+    "prediction": -1,
+    "confidence": 0.074,
     "outcome": null
   }
 ]

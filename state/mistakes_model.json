@@ -1,36 +1,12 @@
 {
   "backtest": {
     "__all__": {
-      "w": 26.0,
-      "n": 52.0
+      "w": 25.0,
+      "n": 51.0
     },
     "direction=long": {
-      "w": 11.0,
-      "n": 22.0
-    },
-    "session=Asia / overnight": {
-      "w": 9.0,
-      "n": 22.0
-    },
-    "weekday=Tue": {
-      "w": 7.0,
-      "n": 11.0
-    },
-    "gap_size=large": {
-      "w": 18.0,
-      "n": 37.0
-    },
-    "volatility=low": {
-      "w": 4.0,
-      "n": 7.0
-    },
-    "entry_stretch=near level": {
-      "w": 15.0,
-      "n": 34.0
-    },
-    "vs_24h_move=against": {
-      "w": 13.0,
-      "n": 29.0
+      "w": 10.0,
+      "n": 21.0
     },
     "session=New York cash session": {
       "w": 10.0,
@@ -40,13 +16,25 @@
       "w": 5.0,
       "n": 11.0
     },
+    "gap_size=large": {
+      "w": 17.0,
+      "n": 36.0
+    },
     "volatility=high": {
       "w": 12.0,
       "n": 20.0
     },
     "entry_stretch=extended": {
+      "w": 10.0,
+      "n": 16.0
+    },
+    "vs_24h_move=against": {
       "w": 11.0,
-      "n": 18.0
+      "n": 27.0
+    },
+    "session=Asia / overnight": {
+      "w": 8.0,
+      "n": 21.0
     },
     "gap_size=medium": {
       "w": 6.0,
@@ -55,6 +43,10 @@
     "volatility=normal": {
       "w": 10.0,
       "n": 25.0
+    },
+    "entry_stretch=near level": {
+      "w": 15.0,
+      "n": 35.0
     },
     "weekday=Thu": {
       "w": 3.0,
@@ -80,13 +72,21 @@
       "w": 2.0,
       "n": 4.0
     },
+    "volatility=low": {
+      "w": 3.0,
+      "n": 6.0
+    },
     "vs_24h_move=with": {
-      "w": 13.0,
-      "n": 23.0
+      "w": 14.0,
+      "n": 24.0
     },
     "weekday=Sun": {
       "w": 1.0,
       "n": 2.0
+    },
+    "weekday=Tue": {
+      "w": 6.0,
+      "n": 10.0
     }
   },
   "live": {
