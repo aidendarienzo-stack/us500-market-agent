@@ -1,7 +1,7 @@
-# US500 live — Thu Nov 26 15:51:09 ET
+# US500 live — Thu Nov 26 16:06:11 ET
 
 **Price 7247.8**
- · New York cash session · feed: Yahoo Finance (delayed fallback) · last tick Wed Nov 25 23:59:00 ET
+ · Asia / overnight · feed: Yahoo Finance (delayed fallback) · last tick Wed Nov 25 23:59:00 ET
 
 4H structure: **range** · settings: target 10, stop 8 (nightly backtest 2026-11-25) · mistake filter OFF
 
