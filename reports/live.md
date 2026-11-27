@@ -1,4 +1,4 @@
-# US500 live — Fri Nov 27 01:22:23 ET
+# US500 live — Fri Nov 27 01:35:15 ET
 
 **Price 7247.8**
  · Asia / overnight · feed: Yahoo Finance (delayed fallback) · last tick Wed Nov 25 23:59:00 ET
@@ -27,7 +27,7 @@
 
 ## Recent events
 
-- Thu Nov 26 19:37:23 ET — No new price for 120s (quiet market, holiday, or feed problem)
+- Fri Nov 27 01:22:57 ET — No new price for 120s (quiet market, holiday, or feed problem)
 
 [Nightly report](daily-latest.md) · [Backtest](backtest.md) · [Lessons](../state/lessons.md) · [TradingView chart](https://www.tradingview.com/chart/M4XmmecI/?symbol=PEPPERSTONE%3AUS500)
 
