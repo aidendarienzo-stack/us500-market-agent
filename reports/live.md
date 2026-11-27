@@ -1,4 +1,4 @@
-# US500 live — Fri Nov 27 13:38:19 ET
+# US500 live — Fri Nov 27 13:53:19 ET
 
 **Price 7316.5**
  · New York cash session · feed: Yahoo Finance (delayed fallback) · last tick Fri Nov 27 13:00:00 ET
