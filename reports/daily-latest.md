@@ -1,6 +1,6 @@
-# US500 nightly report - session 2026-11-26
+# US500 nightly report - session 2026-11-27
 
-Close **7234.5** · 4H structure **range** · VIX 26.80 · Sector breadth 64% above 50-day
+Close **7308.2** · 4H structure **range** · VIX 23.81 · Sector breadth 64% above 50-day
 
 ## Did the agent learn from its mistakes?
 
@@ -16,7 +16,7 @@ If the second row beats the first, skipping its past losing conditions is workin
 | | Trades | Win rate | Total pts | Avg pts | Profit factor | Max DD |
 |---|---|---|---|---|---|---|
 | All signals | 14 | 57% | 32.0 | 2.29 | 1.67 | 24.0 |
-| After skipping losing conditions | 6 | 83% | 42.0 | 7.00 | 6.25 | 8.0 |
+| After skipping losing conditions | 7 | 71% | 34.0 | 4.86 | 3.12 | 16.0 |
 
 Mistake filter is **ON** for live alerts (it improved results on unseen data).
 
@@ -25,11 +25,11 @@ Mistake filter is **ON** for live alerts (it improved results on unseen data).
 | Condition | Win rate | Weighted trades |
 |---|---|---|
 | volatility = low | 10% | 39.0 |
-| session = Asia / overnight | 14% | 60.0 |
-| direction = long | 18% | 57.0 |
+| session = Asia / overnight | 15% | 58.0 |
+| direction = long | 18% | 53.0 |
 | weekday = Tue | 21% | 31.0 |
-| weekday = Wed | 21% | 26.0 |
-| vs_24h_move = against | 23% | 87.0 |
+| weekday = Wed | 22% | 24.0 |
+| vs_24h_move = against | 24% | 84.0 |
 
 **Latest losing trades (post-mortems)**
 
@@ -41,21 +41,21 @@ Mistake filter is **ON** for live alerts (it improved results on unseen data).
 
 ## Daily bias model
 
-- Call for the session after 2026-11-25: **DOWN** → actual +46.0 pts → **WRONG**
-- Next session call: **DOWN** (confidence 0.07)
-- Track record: 67% correct over 3 calls (last 30: 67%); 'always up' would have scored 33%
+- Call for the session after 2026-11-26: **DOWN** → actual +73.8 pts → **WRONG**
+- Next session call: **DOWN** (confidence 0.02)
+- Track record: 50% correct over 4 calls (last 30: 50%); 'always up' would have scored 50%
 
 | Signal | Today | Learned weight | Hit rate |
 |---|---|---|---|
-| trend_50 | -1.00 | +0.97 | 67% of 3 |
-| trend_200 | +1.00 | +0.82 | 33% of 3 |
-| momentum_20d | -1.00 | +0.47 | 67% of 3 |
-| rsi | -0.18 | -0.01 | 67% of 3 |
-| last_day | +0.54 | -0.03 | 33% of 3 |
+| trend_50 | -1.00 | +0.93 | 50% of 4 |
+| trend_200 | +1.00 | +0.88 | 50% of 4 |
+| momentum_20d | -1.00 | +0.42 | 50% of 4 |
+| rsi | -0.12 | -0.02 | 50% of 4 |
+| last_day | +1.00 | +0.00 | 50% of 4 |
 | structure_4h | +0.00 | +1.06 | 100% of 2 |
-| fvg_position | +0.00 | +0.50 | 50% of 2 |
-| vix_change_5d | +0.29 | +0.47 | 67% of 3 |
-| breadth | +0.27 | +0.51 | 67% of 3 |
+| fvg_position | -0.50 | +0.50 | 50% of 2 |
+| vix_change_5d | +1.00 | +0.49 | 75% of 4 |
+| breadth | +0.27 | +0.53 | 75% of 4 |
 
 ## Strategy backtest
 
