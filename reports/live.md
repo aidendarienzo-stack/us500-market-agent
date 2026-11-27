@@ -1,22 +1,22 @@
-# US500 live — Fri Nov 27 12:53:34 ET
+# US500 live — Fri Nov 27 13:08:19 ET
 
-**Price 7291.0**
- · New York cash session · feed: Yahoo Finance (delayed fallback) · last tick Fri Nov 27 12:44:00 ET
+**Price 7316.5**
+ · New York cash session · feed: Yahoo Finance (delayed fallback) · last tick Fri Nov 27 13:00:00 ET
 
 4H structure: **range** · settings: target 10, stop 8 (nightly backtest 2026-11-26) · mistake filter ON
 
-- **SHORT setup armed** since Fri Nov 27 12:40:00 ET after tapping FVG 7254.0–7390.5
-- Last 5m swing high 7304.8 · swing low 7287.8
+- **SHORT setup armed** since Fri Nov 27 13:00:00 ET after tapping FVG 7254.0–7390.5
+- Last 5m swing high 7307.8 · swing low 7284.8
 
 ## Unfilled 4H fair value gaps
 
 | Where | Type | Zone | Distance |
 |---|---|---|---|
 | inside | bear | 7254.0 – 7390.5 | 0.0 pts |
-| above | bear | 7457.8 – 7504.8 | 166.8 pts |
-| above | bear | 7514.2 – 7546.5 | 223.2 pts |
-| below | bull | 7214.0 – 7234.0 | 57.0 pts |
-| below | bull | 7116.8 – 7164.8 | 126.2 pts |
+| above | bear | 7457.8 – 7504.8 | 141.2 pts |
+| above | bear | 7514.2 – 7546.5 | 197.8 pts |
+| below | bull | 7214.0 – 7234.0 | 82.5 pts |
+| below | bull | 7116.8 – 7164.8 | 151.8 pts |
 
 ## Signals in the last 24 hours
 
@@ -29,9 +29,9 @@
 
 ## Recent events
 
-- Fri Nov 27 09:57:05 ET — Price tapped bullish 4H FVG 7214.0–7234.0
-- Fri Nov 27 09:40:05 ET — Price tapped bearish 4H FVG 7254.0–7390.5
-- Fri Nov 27 07:08:34 ET — No new price for 120s (quiet market, holiday, or feed problem)
+- Fri Nov 27 13:02:00 ET — No new price for 120s (quiet market, holiday, or feed problem)
+- Fri Nov 27 12:54:07 ET — No new price for 120s (quiet market, holiday, or feed problem)
+- Fri Nov 27 12:54:07 ET — Price tapped bearish 4H FVG 7254.0–7390.5
 
 [Nightly report](daily-latest.md) · [Backtest](backtest.md) · [Lessons](../state/lessons.md) · [TradingView chart](https://www.tradingview.com/chart/M4XmmecI/?symbol=PEPPERSTONE%3AUS500)
 
